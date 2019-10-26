@@ -54,3 +54,4 @@ dkms.conf
 *.xcodeproj
 .vscode/*
 
+*cmake-build-debug*
