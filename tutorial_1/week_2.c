@@ -11,8 +11,9 @@
 #include <time.h>
 #include <stdlib.h>
 
-/*
+
 //minimal main function
+/*
 int main(int argc, char **argv){
     // argc is the number of arguments passed to the function/program (=ARGument Count)
     // argv is a vector/matrix containing the arguments (=ARGument Vector)
@@ -21,15 +22,16 @@ int main(int argc, char **argv){
 }
 */
 
-/*
+
 //Small Data type example
+/*
 int main(int argc, char **argv){
-    int number = 0; //this is an integer
+    int number = 4; //this is an integer
     char letter = 'c'; //chars are individual characters from the ASCII table..
-    char a = 97; //..and thus are just integers as well which are interpreted as the relevant char
+    char a = 98; //..and thus are just integers as well which are interpreted as the relevant char
     float pi = 3.1415; //float is the standard floating point number with 32 bit
     double pi_acc = 3.1415926536; //and double is a float with double the size, thus more accuracy (64 bit)
-    printf("Number: %d, Letter: %c, a: %d and %c, pi is: %.2f or %f\n", number, letter, a, a, pi, pi_acc);
+    printf("Number: %d, Letter: %d, a: %d and %c, pi is: %.2f or %f\n", number, letter, a, a, pi, pi_acc);
     //you print variables by adding the correct format specifier (e.g. %f) to your string and adding the relevant
     //variable separated by a comma after the text. Note that this does not check for mismatches, so in C you could
     // print an integer as float (%f) and the number would simply be interpreted as float, not as int as intended
@@ -88,7 +90,7 @@ int main(){
 */
 
 //PART 4
-
+/*
 int main(){
     // Always initialise your variables
     int random = 0;
@@ -107,8 +109,8 @@ int main(){
             count_larger);
     return 0;
 }
-
-//WHILE
+*/
+//WHILE - What does this function do?
 /*
 int main(int argc, char **argv){
     //Exercise 1.4
